@@ -236,7 +236,7 @@
                     <navigationItem key="navigationItem" title="My To-Do List" id="HeQ-Mg-vuR">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="jWt-FS-EQP">
                             <connections>
-                                <segue destination="3H8-UR-i5T" kind="push" id="kHZ-3e-EBx"/>
+                                <segue destination="3H8-UR-i5T" kind="modal" id="kHZ-3e-EBx"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
