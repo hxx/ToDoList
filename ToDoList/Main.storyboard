@@ -16,13 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New to-do item" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sd3-mT-Qtv">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New to-do item" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sd3-mT-Qtv">
                                 <rect key="frame" x="20" y="114" width="280" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sd3-mT-Qtv" firstAttribute="top" secondItem="XvL-ge-ute" secondAttribute="bottom" constant="94" id="0R5-El-Oct"/>
+                            <constraint firstAttribute="trailing" secondItem="sd3-mT-Qtv" secondAttribute="trailing" constant="20" id="S2z-dH-xRu"/>
+                            <constraint firstItem="sd3-mT-Qtv" firstAttribute="leading" secondItem="GBt-la-cgf" secondAttribute="leading" constant="20" id="qYK-Mq-ydH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RYd-Zc-P6w" userLabel="First Responder" sceneMemberID="firstResponder"/>
