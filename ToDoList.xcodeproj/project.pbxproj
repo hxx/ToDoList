@@ -10,6 +10,7 @@
 		B9DB3B1A19406F4700AAF6A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DB3B1919406F4700AAF6A8 /* AppDelegate.swift */; };
 		B9DB3B1C19406F4700AAF6A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DB3B1B19406F4700AAF6A8 /* Images.xcassets */; };
 		B9DB3B2819406F4700AAF6A8 /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DB3B2719406F4700AAF6A8 /* ToDoListTests.swift */; };
+		B9DB3B34194071F700AAF6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DB3B33194071F700AAF6A8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		B9DB3B2119406F4700AAF6A8 /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DB3B2619406F4700AAF6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9DB3B2719406F4700AAF6A8 /* ToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTests.swift; sourceTree = "<group>"; };
+		B9DB3B33194071F700AAF6A8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		B9DB3B1619406F4700AAF6A8 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				B9DB3B33194071F700AAF6A8 /* Main.storyboard */,
 				B9DB3B1919406F4700AAF6A8 /* AppDelegate.swift */,
 				B9DB3B1B19406F4700AAF6A8 /* Images.xcassets */,
 				B9DB3B1719406F4700AAF6A8 /* Supporting Files */,
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9DB3B1C19406F4700AAF6A8 /* Images.xcassets in Resources */,
+				B9DB3B34194071F700AAF6A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +381,7 @@
 				B9DB3B2D19406F4700AAF6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9DB3B2E19406F4700AAF6A8 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -385,6 +390,7 @@
 				B9DB3B3019406F4700AAF6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
